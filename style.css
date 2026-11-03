@@ -369,8 +369,8 @@ em {
   transform: rotateY(180deg);
 }
 
-.f,
-.b {
+.flip .f,
+.flip .b {
   position: absolute;
   inset: 0;
   backface-visibility: hidden;
@@ -384,12 +384,12 @@ em {
   font-weight: 700;
 }
 
-.f {
+.flip .f {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.b {
+.flip .b {
   background: linear-gradient(135deg, #0284c7, #0ea5e9);
   transform: rotateY(180deg);
   font-size: 14px;
@@ -728,5 +728,103 @@ em {
   .footer-top {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+/* ===== إضافات الشرح الواضح ===== */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: #e0f2fe;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.pg {
+  background: var(--v);
+  color: #090d16;
+  padding: 0 12px;
+  border-radius: 99px;
+  direction: ltr;
+  white-space: nowrap;
+}
+
+.pg.done {
+  background: var(--g);
+}
+
+.gap.wait {
+  animation: pu 1.2s infinite;
+}
+
+.chip .gap {
+  display: inline-block;
+  padding: 2px 10px;
+  min-width: 60px;
+}
+
+.r2.half {
+  border-color: #fbbf24;
+}
+
+/* ===== نافذة التأكيد (بديل alert) ===== */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 8, 16, .72);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 50;
+  animation: in .25s;
+}
+
+.mbox {
+  background: var(--card);
+  border: 1px solid rgba(56, 189, 248, .35);
+  border-radius: 20px;
+  padding: 26px 22px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .6), 0 0 30px rgba(14, 165, 233, .2);
+  animation: pop .3s;
+}
+
+.mbox .mic {
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+.mbox h3 {
+  margin: 6px 0;
+  color: var(--t);
+  font-size: 20px;
+}
+
+.mbox p {
+  margin: 0;
+}
+
+.mbtn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(.85);
+    opacity: 0;
   }
 }
