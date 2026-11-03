@@ -469,3 +469,9 @@ function result() {
 
 // بدء التشغيل
 go(0);
+
+// Auto Update Copyright Year
+const yearSpan = document.querySelector("#currentYear");
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+}
