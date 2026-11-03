@@ -1,39 +1,12 @@
-🎓 EngVibe — منصة التعلم التفاعلي لقواعد اللغة الإنجليزية
+# EngVibe
 
-Title المقترح للموقع: EngVibe | تعلم قواعد الإنجليزية بالتفاعل واللعب
+## 📝 Description
+**EngVibe** هو تطبيق ويب تفاعلي حديث ومخصص لتعليم قواعد اللغة الإنجليزية وتسميع الكلمات بطريقة ممتعة وذكية. يدمج التطبيق بين الشرح التفاعلي المبسط، اختبارات المفردات الذكية التي تدعم الحروف الكبيرة والصغيرة (Case-insensitive)، واختبارات القواعد المتدرجة المستويات مع نظام تقييم فوري ومؤثرات بصرية تحفيزية.
 
-اسم المشروع (Project Name): EngVibe (أو English Concession Master)
+## 🚀 Title
+**EngVibe | Interactive English Grammar & Vocabulary Platform**
 
-📝 وصف المشروع (Project Description)
-
-EngVibe هو تطبيق ويب تفاعلي وممتع يُساعد الطلاب والمستجيبين لتعلم قواعد اللغة الإنجليزية (مع التركيز الحالي على Concession Clauses مثل Although, Despite, However, Whatever).
-
-يستبدل التطبيق طرق التلقين التقليدية بتجربة تفاعلية سلسة قائمة على الألعاب والأنشطة الإدراكية، حيث يمر الطالب بأربع مراحل أساسية:
-
-الشرح التفاعلي (Interactive Story & Drag/Drop): تفاعل مباشر مع الجمل والمفهوم البصري للقواعد.
-
-تسميع الكلمات الذكي (Vocabulary Drill): اختبار الإملاء مع دعم الحروف الكبيرة والصغيرة (Case-Insensitive).
-
-بنك الأسئلة المتدرج (Multi-level Quiz): أسئلة مقسمة حسب الصعوبة (سهل، متوسط، صعب) مع شرح فوري لكل إجابة (why).
-
-لوحة النتيجة النهائية (Result Summary): ملخص شامل للأداء مع مؤثرات مشجعة (Confetti & Audio Feedback).
-
-✨ المميزات الحالية (Current Features)
-
-🎨 واجهة ناعمة ومريحة للعين: تصميم حديث يعتمد على ألوان الـ Slate Dark والـ Indigo الهادئة لحماية العين أثناء الدراسة.
-
-💡 مرونة الإدخال: قبول إجابات الإملاء والكلمات سواء كُتبت بحروف كابيتال أو سمول (Case-Insensitive).
-
-🔊 مؤثرات صوتية وبصرية: أصوات تفاعلية (Beep) عند الإجابة مع احتفالية بالـ Confetti عند الانتهاء.
-
-📱 متوافق مع كل الشاشات: تصميم مرن يعمل لكافة الهواتف الذكية والشاشات الكبيرة.
-
-⚙️ سهولة التعديل: إمكانية إضافة كلمات وأسئلة جديدة بسهولة عبر ملف data.js.
-
-🛠️ كيفية التشغيل (How to Run)
-
-لا يحتاج المشروع لأي سيرفر أو تجميع (No build tools required):
-
-قم بتحميل كافة الملفات في مجلد واحد (index.html, style.css, app.js, data.js).
-
-افتح ملف index.html في أي متصفح ويب.
+## 🛠️ Tech Stack
+* **HTML5 / CSS3** (Responsive design, custom styling, modern UI/UX)
+* **Vanilla JavaScript (ES6+)** (DOM manipulation, local state management, interactive mechanics)
+* **Google Fonts** (Cairo Typography)
